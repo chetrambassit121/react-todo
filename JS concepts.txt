@@ -1,0 +1,12 @@
+The Spread Operator
+    The JavaScript spread operator (...) expands an iterable (like an array) into more elements.
+
+    This allows us to quickly copy all or parts of an existing array into another array:
+
+        const numbersOne = [1, 2, 3];
+        const numbersTwo = [4, 5, 6];
+        const numbersCombined = [...numbersOne, ...numbersTwo];
+
+        The "spread" operator spreads elements of iterable objects:
+
+        1,2,3,4,5,6
